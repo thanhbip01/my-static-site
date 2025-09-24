@@ -1,0 +1,98 @@
+* {
+    margin: opx;
+    padding: 0px;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://img.freepik.com/free-photo/asian-woman-wearing-thai-dress-costume-traditional-according-thai-culture-pha-dok-siew-waterfall-chiang-mai-thailand_335224-1164.jpg?uid=R200959710&ga=GA1.1.1074243407.1747738043&semt=ais_items_boosted&w=740);
+    background-size: 100% 100%;
+}
+form {
+    background-color: rgba(0,0, 0,0.4);
+    width: 50%;
+    border-radius: 20px;
+    text-align: center;
+    display: grid;  
+    h1 {
+        color: white;
+    }
+    .left {
+        border-radius: 10px;
+        img {
+            border-radius: 10px;
+        }
+    }
+    .container {
+        display: flex;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+            .right {
+        padding: 20px;
+        
+        .form-group {
+            position: relative;
+            margin-top: 10px;
+            i {
+            position: absolute;
+               right: 10px;
+               top: 50%;
+              transform: translateY(-50%);
+            }
+            input{
+            width: 100%;
+            border-radius: 45px;
+            padding: 10px;
+        }
+        }
+
+    }
+    }
+
+    .link {
+        margin-top: 20px;
+        button {
+            background: green;
+            color: white;
+            border-radius: 5px;
+            width:100%;
+            padding: 10px;
+            border-radius: 45px;
+        }
+    }
+    h2 {
+        font-size: 15px;
+        color: white;
+    }
+    .icon {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        button {
+            background: rgb(14, 44, 161);
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+    }
+
+        h3 {
+            font-size: 10px;
+            color: white;
+        }
+        a {
+            color: red;
+            font-size: 10px;
+        }
+    
+}

@@ -1,0 +1,138 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+i {
+  margin: 0px;
+}
+li {
+  list-style-type: none;
+}
+ul {
+  padding: 0px;
+}
+.box {
+  display: none;
+}
+body {
+  overflow: hidden;
+}
+.badge {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.chia1 {
+  .left {
+    background-color: palevioletred;
+    header {
+      border-bottom: 1px solid black;
+      height: 70px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      position: relative;
+      .back {
+        font-size: 30px;
+        position: absolute;
+        right: 0px;
+        transform: translate(50%);
+      }
+    }
+    ul {
+      .gach1 {
+        border-bottom: 1px solid black;
+      }
+      li {
+        display: flex;
+        gap: 20px;
+        padding: 10px 20px;
+        align-items: center;
+        &:hover {
+          background-color: aliceblue;
+        }
+      }
+    }
+  }
+  .right {
+    background-color: plum;
+    flex: 1;
+    justify-content: space-between;
+    header {
+      height: 70px;
+    }
+    .avata {
+      width: 50px;
+      height: 50px;
+      img {
+        border-radius: 50%;
+      }
+    }
+    .product {
+      padding: 1rem;
+
+      .card-img-top {
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        height: 130px;
+        object-fit: contain;
+      }
+
+      .card-body {
+        padding: 0.5rem 0 0 0;
+
+        .btn {
+          font-size: 0.8rem;
+          padding: 0.3rem 1rem;
+        }
+      }
+    }
+    
+  }
+}
+/* table tro len  */
+@media screen and (min-width: 741px) {
+  .chia1 {
+    height: 100vh;
+    display: flex;
+    .left {
+       height: 100vh;
+    }
+    main {
+       height: calc(100vh - 70px);
+       overflow-y: scroll;
+    }
+  }
+}
+/* mobile  */
+@media screen and (max-width: 740px) {
+  .chia1 {
+    .left {
+      .anh {
+        display: none;
+      }
+      header {
+        .back {
+          transform: translate(50%);
+          right: 30px;
+        }
+      }
+    }
+  }
+}

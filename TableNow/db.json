@@ -1,0 +1,402 @@
+{
+  "table": [
+    {
+      "id": "1",
+      "quantity": 0,
+      "nameCustomer": "",
+      "status": false
+    },
+    {
+      "id": "2",
+      "quantity": 0,
+      "nameCustomer": "",
+      "status": false
+    },
+    {
+      "id": "3",
+      "quantity": "",
+      "nameCustomer": "",
+      "status": false
+    },
+    {
+      "id": "4",
+      "quantity": "",
+      "nameCustomer": "",
+      "status": false
+    },
+    {
+      "id": "5",
+      "quantity": "",
+      "nameCustomer": "",
+      "status": false
+    },
+    {
+      "id": "6",
+      "quantity": "",
+      "nameCustomer": "",
+      "status": false
+    },
+    {
+      "id": "7",
+      "quantity": "",
+      "nameCustomer": "",
+      "status": false
+    },
+    {
+      "id": "8",
+      "quantity": "",
+      "nameCustomer": "",
+      "status": false
+    },
+    {
+      "id": "9",
+      "quantity": "",
+      "nameCustomer": "",
+      "status": false
+    },
+    {
+      "id": "10",
+      "quantity": "",
+      "nameCustomer": "",
+      "status": false
+    },
+    {
+      "id": "11",
+      "quantity": "",
+      "nameCustomer": "",
+      "status": false
+    },
+    {
+      "id": "12",
+      "quantity": "",
+      "nameCustomer": "",
+      "status": false
+    }
+  ],
+  "food": [
+    {
+      "id": "1",
+      "name": "Hamberger",
+      "price": 39,
+      "urlimg": "../img/ham.jpg"
+    },
+    {
+      "id": "2",
+      "name": "BeefSteak",
+      "price": 129,
+      "urlimg": "../img/beef.jpg"
+    },
+    {
+      "id": "3",
+      "name": "pizza",
+      "price": "99",
+      "urlimg": "https://res.cloudinary.com/daek02at9/image/upload/v1754741288/tvn2oggfpzlvkhsgzmgv.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Fried chiken",
+      "price": 119,
+      "urlimg": "../img/f.jpg"
+    },
+    {
+      "id": "5",
+      "name": "BeefSteak",
+      "price": 129,
+      "urlimg": "../img/beef.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Dimsum",
+      "price": 79,
+      "urlimg": "../img/s.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Fried chiken",
+      "price": 119,
+      "urlimg": "../img/f.jpg"
+    },
+    {
+      "id": "8",
+      "name": "my xao",
+      "price": "12",
+      "urlimg": "https://res.cloudinary.com/daek02at9/image/upload/v1754741250/ewk1h1i2iyondl1pcunw.jpg"
+    }
+  ],
+  "orders": [
+    {
+      "id": "2",
+      "bill": [
+        {
+          "idFood": "1",
+          "quantity": 5
+        },
+        {
+          "idFood": "2",
+          "quantity": 8
+        },
+        {
+          "idFood": "3",
+          "quantity": "2"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "bill": [
+        {
+          "idFood": "1",
+          "quantity": 14
+        },
+        {
+          "idFood": "3",
+          "quantity": "3"
+        },
+        {
+          "idFood": "4",
+          "quantity": "3"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "bill": [
+        {
+          "idFood": "1",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "bill": [
+        {
+          "idFood": "2",
+          "quantity": "2"
+        },
+        {
+          "idFood": "3",
+          "quantity": "1"
+        },
+        {
+          "idFood": "4",
+          "quantity": "3"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "bill": [
+        {
+          "idFood": "1",
+          "quantity": "2"
+        },
+        {
+          "idFood": "2",
+          "quantity": "2"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "bill": [
+        {
+          "idFood": "2",
+          "quantity": "2"
+        },
+        {
+          "idFood": "4",
+          "quantity": "4"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "bill": [
+        {
+          "idFood": "3",
+          "quantity": "1"
+        },
+        {
+          "idFood": "7",
+          "quantity": "3"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "bill": [
+        {
+          "idFood": "1",
+          "quantity": "6"
+        },
+        {
+          "idFood": "2",
+          "quantity": "2"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "bill": [
+        {
+          "idFood": "3",
+          "quantity": "3"
+        },
+        {
+          "idFood": "4",
+          "quantity": "3"
+        },
+        {
+          "idFood": "8",
+          "quantity": "3"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "bill": [
+        {
+          "idFood": "2",
+          "quantity": "3"
+        },
+        {
+          "idFood": "3",
+          "quantity": "3"
+        },
+        {
+          "idFood": "6",
+          "quantity": "1"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "bill": [
+        {
+          "idFood": "1",
+          "quantity": "2"
+        },
+        {
+          "idFood": "2",
+          "quantity": "2"
+        },
+        {
+          "idFood": "3",
+          "quantity": "3"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "bill": [
+        {
+          "idFood": "2",
+          "quantity": "3"
+        },
+        {
+          "idFood": "3",
+          "quantity": "3"
+        },
+        {
+          "idFood": "4",
+          "quantity": "4"
+        }
+      ]
+    }
+  ],
+  "bills": [
+    {
+      "id": "1",
+      "idTable": 1,
+      "total": 500,
+      "time": "28/8/2025"
+    },
+    {
+      "id": "66e1",
+      "idTable": "2",
+      "total": "522",
+      "time": "2025-08-28T11:36:54.884Z"
+    },
+    {
+      "id": "c4ef",
+      "idTable": "2",
+      "total": "1425",
+      "time": "2025-08-28T11:38:19.195Z"
+    },
+    {
+      "id": "c920",
+      "idTable": "1",
+      "total": "117",
+      "time": "2025-08-28T11:39:11.300Z"
+    },
+    {
+      "id": "9b04",
+      "idTable": "3",
+      "total": "1200",
+      "time": "2025-09-07T04:41:14.631Z"
+    },
+    {
+      "id": "3325",
+      "idTable": "4",
+      "total": "714",
+      "time": "2025-09-07T04:41:29.399Z"
+    },
+    {
+      "id": "b7ab",
+      "idTable": "5",
+      "total": "336",
+      "time": "2025-09-07T04:41:42.230Z"
+    },
+    {
+      "id": "676a",
+      "idTable": "6",
+      "total": "734",
+      "time": "2025-09-07T04:41:56.430Z"
+    },
+    {
+      "id": "a1ef",
+      "idTable": "7",
+      "total": "456",
+      "time": "2025-09-07T04:42:07.892Z"
+    },
+    {
+      "id": "c1b1",
+      "idTable": "8",
+      "total": "492",
+      "time": "2025-09-07T04:42:25.398Z"
+    },
+    {
+      "id": "d83f",
+      "idTable": "9",
+      "total": "690",
+      "time": "2025-09-07T04:42:52.654Z"
+    },
+    {
+      "id": "8046",
+      "idTable": "10",
+      "total": "763",
+      "time": "2025-09-07T04:43:06.141Z"
+    },
+    {
+      "id": "7426",
+      "idTable": "11",
+      "total": "633",
+      "time": "2025-09-07T04:43:24.845Z"
+    },
+    {
+      "id": "3c61",
+      "idTable": "12",
+      "total": "1160",
+      "time": "2025-09-07T04:43:41.524Z"
+    }
+  ],
+  "accounts": [
+    {
+      "id": "3f0c",
+      "name": "thanh",
+      "email": "123@",
+      "password": "123"
+    }
+  ]
+}

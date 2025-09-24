@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Create Account Form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <link rel="stylesheet" href="../css/register.css">
+</head>
+<body>
+  <form>
+    <div class="left">
+      <div class="tren">
+        <img src="/img/logo1.png" alt="Logo" />
+        <h1>Defy the Past<br>Step into<br> the Future</h1>
+      </div>
+      <div class="duoi">
+        <img src="/img/may.png" alt="VR Headset" />
+      </div>
+    </div>
+
+    <div class="right">
+      <div class="language-select">English (UK)</div>
+
+      <h1>Create Account</h1>
+      <div class="form-group">
+        <input  id="namef" type="text" placeholder="Full Name" />
+      </div>
+      <div class="form-group">
+        <input id="emails" type="email" placeholder="Email" />
+      </div>
+      <div class="form-group">
+        <input id="pass" type="password" placeholder="Password" />
+      </div>
+      <div class="form-group">
+        <input id="passw" type="password" placeholder="Confirm Password" />
+      </div>
+
+      <label for="nhap">
+        <input type="checkbox" id="terms" /> I have read and agreed to the Terms of Service and Privacy Policy
+      </label>
+
+      <button id="account" type="submit">Create Account</button>
+
+      <div class="or">Or</div>
+
+      <div class="social-signup">
+        <a href="#"><i class="fab fa-google"></i> Signup with Google</a>
+        <a href="#"><i class="fab fa-facebook"></i> Signup with Facebook</a>
+      </div>
+
+      <div class="login-link">
+        Already have an account? <a href="../views/Login.html">Log In</a>
+      </div>
+    </div>
+  </form>
+</body>
+<script src="../js/api.js"></script>
+<script src="../js/register.js"></script>
+</html>
